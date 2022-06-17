@@ -14,3 +14,8 @@ La deuxième visualisation est une carte de France qui indique le nombre de béb
 
 La troisième visualisation est moins interactive et dans un esprit ludique, prend le parti du dynamisme. Le temps est encodé sur l'axe des ordonnées et l'axe des abscisses présente un attribut dérivé, le pourcentage de mixité d'un prénom. Plus le prénom est à gauche, plus il est fréquemment donné à des femmes, plus il est à droite, plus il est masculin, le tout évoluant en fonction du temps.
 Le fond du canva est rempli de courbes en gris clair qui représentent les 500 prénoms les plus donnés en france au siècle dernier. On peut déjà remarquer que la très grande majorité des prénoms sont 100% masculins ou 100% féminin la plupart du temps, ce qui est observable grace à la transparence de ces courbes et leur superposition aux extrémités. Sur cet arrière plan on vient représenter des "prénoms intéressants" sélectionnés par un algorithme paramétrable dans la cellule précédant la viz. Les courbes montent de bas en haut à mesure que les années avancent. La popularité de chaque prénom est encodée en utilisant la largeur de la ligne via une échelle logarithmique. Afin de jouer pleinement la carte du jeu, une part d'aléatoire est introduite dans l'algorithme et les prénoms représentés, relancer plusieurs fois la viz donne rarement le même résultat !
+
+
+Autres fichiers:
+- design : nos réflexions pour le design en amont de l'étape de codage
+- visualization_3_exempleEtatFinal : au cas où l'animation ne tourne pas (réalisé sous colab) sur un autre système, voici un état final (statique)
